@@ -1,0 +1,116 @@
+/* 
+================================================================================
+WSP COMPONENT LIBRARY STYLESHEET
+================================================================================ */
+
+/*Body*/
+body{
+    opacity: 10;
+    color: #efe;
+    background-image:url("../images/dark-spade.png");
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+
+
+
+}
+
+.page{
+    border: none;
+    width: 960px;
+    margin-top: 1.041%;
+    margin-bottom: 1.041%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-image:url("../images/dark-spade.png");
+
+}
+
+/*Headings*/
+h1, h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+    padding: 10px;
+}
+
+
+
+
+.project1{
+    color: yellow;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+h2, h3, h4, h5, h6{
+    font-weight: bold;
+    color: yellow;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.target_audience, .needs{
+    border-bottom: solid 2px;
+    padding: 10px;
+}
+
+/*Paragraphs*/
+p{
+    line-height: 20px;
+    text-indent: 50px;
+    font-size: 18px;
+}
+
+.biography{
+    padding: 5px;
+    line-height: 25px;
+}
+
+
+/*images*/
+
+.intro_pic{
+    width:400px;
+    height:500px;
+    margin:0 auto;
+    display: block;
+}
+
+.component1pic, .component2pic, .component3pic, .component4pic, .component5pic,
+.component6pic, .component7pic, .component8pic, .component9pic, .component10pic{
+    width: 715px;
+    margin:0 auto;
+    display: block;
+
+}
+
+div{
+    width: 935px;
+    border: solid 3px black;
+    padding: 10px;
+    background-color: #262626;
+    opacity: 10;
+}
+
+
+
+/* HEADER SPECIFIC ======================================== */
+
+/* ABOUT SPECIFIC ======================================== */
+
+/* COMPONENTS SPECIFIC ======================================== */
+
+/*Buttons*/
+button{
+    padding: 4px;
+    margin-top: 1.041%;
+    margin-bottom: 1.041%;
+
+}
+
+/*Screenshare Link*/
+#screenshare{
+    color: white;
+}

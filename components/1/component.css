@@ -1,0 +1,97 @@
+/* */
+/*================================================================================*/
+/*COMPONENT STYLESHEET*/
+/*================================================================================ */
+/*html{ font-size: 62.55%*/
+/*}*/
+
+/*body{*/
+    /*font: 400 1.6cm/1.5 sans-serif;*/
+
+/*}*/
+
+/*section{*/
+    /*max-width: 1000px;*/
+    /*margin: 0 auto;*/
+    /*text-align: center;*/
+/*}*/
+
+/*h2{*/
+    /*font-weight: 600;*/
+    /*font-size: 2.4rem;*/
+    /*text-transform: uppercase;*/
+/*}*/
+
+/*h3{*/
+   /*padding-top: 2rem;*/
+    /*font-size: 1.8rem;*/
+    /*color: #555555;*/
+/*}*/
+
+
+/* Team Member */
+/*article{*/
+    /*width: calc(25% - 4rem);*/
+    /*margin: 0 2rem;*/
+    /*padding: 2rem;*/
+    /*float: left;*/
+    /*background: #ffffff;*/
+/*}*/
+
+/*img{*/
+    /*border-radius:50%;*/
+/*}*/
+
+/*li{*/
+    /*display: inline-block;*/
+/*}*/
+
+/*li a{*/
+    /*display:block;*/
+    /*width: 2rem;*/
+    /*height: 2rem;*/
+    /*background: #cccccc;*/
+    /*text-indent: -9999px;*/
+/*}*/
+
+/*Social Media Pic Links*/
+/*li a[href*='facebook']{*/
+    /*background: url(images/facebook.jpg) no-repeat center;*/
+/*}*/
+
+/*li a[href*='twitter']{*/
+    /*background: url(images/twitter.jpg) no-repeat center;*/
+/*}*/
+
+/*li a[href*='google']{*/
+    /*background: url(images/google.jpg) no-repeat center;*/
+/*}*/
+
+/*p:last-child a{*/
+    /*display: inline-block;*/
+    /*width: 2rem;*/
+    /*height: 2rem;*/
+    /*background: #333333;*/
+    /*border-radius: 50%;*/
+    /*text-indent: -99999px;*/
+/*}*/
+
+/*p:last-child a::after{*/
+    /*content: 'hello';*/
+    /*display: block;*/
+    /*width: 0;*/
+    /*height: 0;*/
+    /*border-top: ;*/
+    /*border-bottom: ;*/
+    /*border-left: ;*/
+
+
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+/*}*/
+
+
+/* HEADER ======================================== */
+
+/* HEADER ======================================== */

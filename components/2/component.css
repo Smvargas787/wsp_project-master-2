@@ -6,3 +6,13 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+
+/*Headhings*/
+h1{
+    font-weight: bold;
+}
+
+article{
+    margin: auto;
+
+}

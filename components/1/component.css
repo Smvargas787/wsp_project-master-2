@@ -2,6 +2,96 @@
 /*================================================================================*/
 /*COMPONENT STYLESHEET*/
 /*================================================================================ */
+
+/*div{*/
+    /*background-color: #eeffee;*/
+
+/*}*/
+
+/*Headings*/
+
+h1{
+    color: #2c475a;
+    font-family: Myriad Pro;
+    padding: 10px;
+    margin: auto;
+    position:relative;
+    bottom: -15px;
+}
+
+/*Paragraphs*/
+p{
+    padding: 10px;
+    margin: auto;
+}
+
+/*Forms*/
+input, textarea{
+    background-color: #e0e1db;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input ,label, textarea{
+    font-family: Myriad Pro;
+    display: block;
+}
+
+/*Asteris Special Key*/
+form p :after {
+    content:"*";
+    color:#e65753 ;
+}
+/*Asteris Special Key*/
+
+form p{
+    float: left;
+    width: 50%;
+}
+
+form p:last-of-type{
+   position: relative;
+    top: 110px;
+    left: -262px;
+}
+
+textarea{
+    width:430px;
+    padding: 20px;
+}
+
+
+
+/*Button*/
+button{
+    background-color: #e65753;
+    float: right;
+    position: absolute;
+    left: 330px;
+    width: 100px;
+    padding: 7px;
+    color: #ffffff;
+    font-family: Myriad Pro;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    top: 110px;
+    left: -90px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*html{ font-size: 62.55%*/
 /*}*/
 

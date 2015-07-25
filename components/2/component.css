@@ -7,16 +7,11 @@ COMPONENT STYLESHEET
 
 /* HEADER ======================================== */
 
-/*Headhings*/
+/*Headings*/
 h1{
     font-weight: bold;
-}
-
-article{
-    margin: auto;
-    padding: 5px;
-    float: left;
-    width: 25%;
+    position: absolute;
+    left: 39px;
 }
 
 h2 a, a{
@@ -25,7 +20,30 @@ h2 a, a{
 }
 
 
+article{
+    margin: auto;
+    float: left;
+    width: 25%;
+    padding-right: 10px;
+    padding-left: 40px;
+    position: relative;
+    padding-bottom: 18.25%;
+    height: 0;
+    padding-top: 30px;
+}
 
+
+/*Paragraphs*/
+
+p a:last-of-type{
+    float: right;
+    width: 100px;
+
+}
+
+p{
+    color: #807b7e;
+}
 
 
 

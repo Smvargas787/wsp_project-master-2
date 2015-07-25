@@ -12,7 +12,7 @@
 
 h1{
     color: #2c475a;
-    font-family: Myriad Pro;
+    font-family: Myriad Pro sans-serif;
     padding: 10px;
     margin: auto;
     position:relative;
@@ -28,13 +28,15 @@ p{
 /*Forms*/
 input, textarea{
     background-color: #e0e1db;
-    padding: 5px;
+    padding: 3px;
     border-radius: 5px;
+
 }
 
 input ,label, textarea{
-    font-family: Myriad Pro;
+    font-family: Myriad Pro sans-serif;
     display: block;
+
 }
 
 /*Asteris Special Key*/
@@ -47,12 +49,13 @@ form p label::after {
 form p{
     float: left;
     width: 50%;
+
 }
 
 form p:last-of-type{
-   position: relative;
     top: 110px;
-    left: -262px;
+    position: relative;
+    right: 287px;
 }
 
 textarea{
@@ -66,12 +69,10 @@ textarea{
 button{
     background-color: #e65753;
     float: right;
-    position: absolute;
-    left: 330px;
+    /*position: absolute;*/
     width: 100px;
     padding: 7px;
     color: #ffffff;
-    font-family: Myriad Pro;
     letter-spacing: 1px;
     font-weight: bold;
     border: none;
@@ -79,7 +80,7 @@ button{
     text-align: center;
     position: relative;
     top: 110px;
-    left: -90px;
+    right: 140px;
 }
 
 

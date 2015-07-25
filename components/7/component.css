@@ -6,3 +6,20 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+
+div form p:first-of-type{
+    background-color:#3b5892 ;
+}
+
+/*Forms*/
+form{
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
+
+p{
+    color: #ffffff;
+}
+
+/*#313432*/

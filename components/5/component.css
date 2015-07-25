@@ -6,3 +6,57 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+
+header{
+    background-color: #2e2e2e;
+}
+
+/*Navigation*/
+nav li{
+    display: inline-block;
+    padding: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav{
+    text-align: center;
+    padding: 40px;
+}
+
+/*Watchlist*/
+/*header  a:last-child{*/
+    /*color: #f1da4e;*/
+
+/*}*/
+
+li a, a{
+    color: #ffffff;
+}
+
+/*Forms*/
+form input{
+    padding: 5px;
+    margin: auto;
+}
+
+ form input:first-of-type{
+     width: 360px;
+     padding: 5px;
+ }
+
+form input:nth-last-child(2){
+    width: 100px;
+    padding: 5px;
+}
+
+/*Image*/
+img{
+    position: relative;
+    top: 17px;
+}
+
+form input:last-of-type{
+    position: relative;
+    top: 15px;
+    right: 7px;
+}

@@ -6,3 +6,37 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+
+/*Headings*/
+h2{
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #262626;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #262626;
+
+}
+
+article{
+    margin: auto;
+    float: left;
+    width: 30%;
+    padding-left: 40px;
+    position: relative;
+    padding-top: 30px;
+}
+
+/*Images*/
+img{
+    float: left;
+    width: 110px;
+}
+
+
+
+

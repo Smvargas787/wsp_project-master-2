@@ -13,12 +13,10 @@ h1{
 }
 
 article{
-    display: inline-block;
     margin: auto;
-    margin-right: -8px;
     padding: 5px;
     float: left;
-    width: 320px;
+    width: 25%;
 }
 
 h2 a, a{

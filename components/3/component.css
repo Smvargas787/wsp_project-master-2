@@ -24,6 +24,12 @@ nav li{
     text-transform: uppercase;
     padding: 20px;
     letter-spacing: 3px;
+    width: 180px;
+}
+
+nav{
+    text-align: center;
+    padding: 40px;
 }
 
 li a{

@@ -6,3 +6,70 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+
+div{
+    background-color: grey;
+    color: #ffffff;
+    margin: auto;
+    width: 90%;
+    padding: 100px;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
+
+/*Headings*/
+
+h1{
+    font-weight: bold;
+   position: absolute;
+    top: 50px;
+    left: 350px;
+    line-height: 10px;
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+
+/*Paragraphs*/
+
+p{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    line-height: 25px;
+    width: 790px;
+    position: relative;
+    left: 100px;
+}
+
+p:first-of-type{
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+    left: 90px;
+}
+
+p:last-of-type{
+    color: lightgray;
+    border-radius: 50%;
+}
+
+/*Button*/
+a{
+    background-color: #e65753;
+    float: left;
+    padding: 15px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    border: none;
+    text-align: center;
+    position: relative;
+    left: 260px;
+
+}
+
+a{
+    color: #ffffff;
+}
+
+

@@ -15,8 +15,18 @@ h1{
 article{
     display: inline-block;
     margin: auto;
+    margin-right: -8px;
     padding: 5px;
     float: left;
     width: 320px;
 }
+
+h2 a, a{
+    color: #207dc0;
+    font-weight: bold;
+}
+
+
+
+
 

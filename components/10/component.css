@@ -1,0 +1,36 @@
+/* 
+================================================================================
+COMPONENT STYLESHEET
+================================================================================ */
+
+/* HEADER ======================================== */
+
+/* HEADER ======================================== */
+
+h2{
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #262626;
+    font-weight: bold;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #262626;
+
+}
+
+article{
+    margin: auto;
+    float: left;
+    width: 30%;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+img {
+    padding: 10px 10px;
+    margin: 10px;
+}

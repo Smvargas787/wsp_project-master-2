@@ -6,3 +6,46 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+
+/*Body*/
+body{
+    color: #ffffff;
+
+}
+
+/*Footer*/
+footer{
+    background-color: #000;
+}
+
+/*Navigation*/
+nav li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 20px;
+    letter-spacing: 3px;
+}
+
+li a{
+    color: #ffffff;
+}
+
+/*Paragraphs*/
+p{
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+p:last-child::after{
+    content: "Crissy";
+    text-decoration: underline;
+    font-style: normal;
+}
+
+p:last-child{
+    font-style: italic;
+
+}
+
+

@@ -7,11 +7,15 @@ COMPONENT STYLESHEET
 
 /* HEADER ======================================== */
 
+/**/
+
+/*Had issue with positioning to make the videos work. Used the clear to solve it.*/
+
 /*Headings*/
 h1{
     font-weight: bold;
     position: absolute;
-    left: 39px;
+    left: 49px;
 }
 
 h2 a, a{
@@ -24,16 +28,17 @@ article{
     margin: auto;
     float: left;
     width: 25%;
-    padding-right: 10px;
-    padding-left: 40px;
-    position: relative;
-    padding-bottom: 18.25%;
-    height: 0;
-    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+    /*position: relative;*/
+    /*padding-bottom: 18.25%;*/
+    /*height: 0;*/
 }
 
-
-/*Paragraphs*/
+article:nth-child(6){
+    clear: both;
+}
 
 p a:last-of-type{
     float: right;
@@ -44,6 +49,5 @@ p a:last-of-type{
 p{
     color: #807b7e;
 }
-
 
 

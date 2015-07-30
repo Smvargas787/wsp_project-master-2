@@ -7,43 +7,62 @@ COMPONENT STYLESHEET
 
 /* HEADER ======================================== */
 
+/*Had to fix the center of the sections, borders, and background images*/
+/*Question towards heading ABOUT.*/
+
 body{
     background-image: url("jcole.jpg");
+    /*Covers the entire background with background cover*/
+    background-size: cover;
     color: #ffffff;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 20px;
+    font-family: sans-serif;
 
 }
 
 h1{
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     display: inline-block;
-    border-bottom: #a4a4a4 2px solid;
+    border-bottom: #a4a4a4 9px solid;
+    margin-bottom: 5px;
     padding: 10px 5px;
-    position: relative;
+    /*position: relative;*/
 }
 
-h1:before{
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: 5px;
-    width: 100%;
-    height: 3px;
-    background: #a4a4a4;
+section{
+    margin: auto;
+    padding: 10px;
 }
 
-
-
+/*Not sure what this did*/
+/*h1:before{*/
+    /*content: "";*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*bottom: 5px;*/
+    /*width: 100%;*/
+    /*height: 3px;*/
+    /*background: #a4a4a4;*/
+/*}*/
 
 
 p{
-    margin: auto;
+
+    /*Margin centers it, no bueno.*/
+    /*margin: auto;*/
     padding: 15px;
     width: 550px;
+    font-weight: 100;
 }
 
+/*To put second border*/
+p:first-of-type{
+    border-top: #a4a4a4 2px solid;
+    padding-top: 35px;
+
+}
 

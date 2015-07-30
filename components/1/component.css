@@ -3,10 +3,13 @@
 /*COMPONENT STYLESHEET*/
 /*================================================================================ */
 
-/*div{*/
-    /*background-color: #eeffee;*/
 
-/*}*/
+/*Section*/
+section{
+    max-width: 960px;
+    margin: auto;
+    border: solid 1px red;
+}
 
 /*Headings*/
 
@@ -53,9 +56,9 @@ form p{
 }
 
 form p:last-of-type{
-    top: 110px;
-    position: relative;
-    right: 287px;
+    /*top: 110px;*/
+    /*position: relative;*/
+    /*right: 287px;*/
 }
 
 textarea{
@@ -78,9 +81,9 @@ button{
     border: none;
     border-radius: 5px;
     text-align: center;
-    position: relative;
-    top: 110px;
-    right: 140px;
+    /*position: relative;*/
+    /*top: 110px;*/
+    /*right: 140px;*/
 }
 
 

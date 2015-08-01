@@ -7,7 +7,7 @@ COMPONENT STYLESHEET
 
 /* HEADER ======================================== */
 
-div{
+section{
     background-color: grey;
     color: #ffffff;
     margin: auto;
@@ -22,7 +22,7 @@ div{
 
 h1{
     font-weight: bold;
-   position: absolute;
+    position: absolute;
     top: 50px;
     left: 350px;
     line-height: 10px;

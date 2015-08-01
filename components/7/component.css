@@ -7,19 +7,52 @@ COMPONENT STYLESHEET
 
 /* HEADER ======================================== */
 
-div form p:first-of-type{
-    background-color:#3b5892 ;
+div{
+    margin: auto;
+    margin-top:20px;
+    max-width: 960px;
+}
+
+div, form:nth-of-type(1){
+    background-color: #207dc0;
+}
+
+
+/*div form p:first-of-type{*/
+/*}*/
+
+/*Heading*/
+h1{
+    font-size: 30px;
+    color: #ffffff;
 }
 
 /*Forms*/
 form{
-    display: block;
-    padding: 10px;
-    margin: auto;
+    float: right;
+    /*display: block;*/
+    /*padding: 10px;*/
+    /*margin: auto;*/
 }
 
+form:nth-of-type(1){
+    /*padding: 10px;*/
+    position: relative;
+    left: 173px;
+    top: -33px;
+
+}
+form:nth-of-type(2){
+    /*padding: 65px;*/
+    position: relative;
+    left: 500px;
+    top: 60px;
+
+}
+
+
 p{
-    color: #ffffff;
+    color: #000;
 }
 
 /*#313432*/

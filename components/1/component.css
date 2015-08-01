@@ -8,8 +8,9 @@
 section{
     max-width: 960px;
     margin: auto;
-    border: solid 1px red;
+    /*border: solid 1px red;*/
 }
+
 
 /*Headings*/
 
@@ -20,13 +21,20 @@ h1{
     margin: auto;
     position:relative;
     bottom: -15px;
+    font-size: 30px;
+    font-weight: 100;
 }
+
 
 /*Paragraphs*/
 p{
     padding: 10px;
     margin: auto;
 }
+
+/*p:first-of-type{*/
+    /*text-wrap: normal;*/
+/*}*/
 
 /*Forms*/
 input, textarea{
@@ -56,9 +64,15 @@ form p{
 }
 
 form p:last-of-type{
-    /*top: 110px;*/
-    /*position: relative;*/
-    /*right: 287px;*/
+    top: 110px;
+    position: relative;
+    right: 475px;
+}
+
+form p:nth-child(2){
+    top: 1px;
+    position: relative;
+    right: 230px;
 }
 
 textarea{
@@ -80,10 +94,10 @@ button{
     font-weight: bold;
     border: none;
     border-radius: 5px;
-    text-align: center;
-    /*position: relative;*/
-    /*top: 110px;*/
-    /*right: 140px;*/
+    /*text-align: center;*/
+    position: relative;
+    top: 110px;
+    right: 500px;
 }
 
 
